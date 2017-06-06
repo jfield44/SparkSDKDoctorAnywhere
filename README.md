@@ -12,7 +12,7 @@ The goal of this lab is to show the process that a developer would take to imple
 
 The app in its currently has no way of being able to make a voice or video call, so we will use integrate the Spark SDK into this app to allow patients to connect to a Doctor directly inside the DrAnywhere App.
 
-![](Cisco%20Spark%20Video%20SDK%20-%20SEVT%20Lab%203/spread.png)
+![](spread.png)
 
 # Instructions
 1. Clone a copy of the DrAnywhere source code to your local machine by opening the Terminal and running the command `git clone https://github.com/jfield44/sparksdkdranywhere.git`.
@@ -62,12 +62,12 @@ At this point we need to quit out of the Text editor, to do that:
 2. We can now open the project in the Xcode development environment by running the command `open DrAnywhere.xcworkspace`
 3. In the 2nd Lab we explored the value of ‘Wrapper libraries’, pre-written code which delivers a lot of functionality without needing any custom development. In this example instead of completely writing our own SDK code we will re-use the same wrapper classes as before but downloading them directly. To do this goto [GitHub - jfield44/SparkSDKWrapper: Embed Voice and Video calling capabilities into your iOS App in 3 lines of code using the Cisco Spark SDK with this wrapper.](https://github.com/jfield44/SparkSDKWrapper) and click on ‘Clone or Download’ then ‘Download ZIP`
 4. Expand your DrAnywhere Folder in Xcode, right click on DrAnywhere and press `New Group` and name the folder `SparkSDKWrapper`
-![](Cisco%20Spark%20Video%20SDK%20-%20SEVT%20Lab%203/Screen%20Shot%202017-06-04%20at%2014.46.38.png)
+![](2.png)
 5. Open the freshly downloaded SDK wrapper code that you downloaded and drag the contents of the folder into the `SparkSDKWrapper` folder in Xcode. The folder structure should look like this:
-![](Cisco%20Spark%20Video%20SDK%20-%20SEVT%20Lab%203/Screen%20Shot%202017-06-04%20at%2014.50.09.png)
+![](3.png)
 6. Now in Xcode click on the file `DoctorListTableViewController.swift` ,  in the top left corner of Xcode select , the simulator drop down, pick any iOS device (iPhone 7 or 7 plus are recommended), then click on Run to start the app.
 7. The iOS Simulator will now launch, you can click on it much like your regular iPhone. Follow the steps below:
-![](Cisco%20Spark%20Video%20SDK%20-%20SEVT%20Lab%203/Steps2.png)
+![](Steps2.png)
 8. The next step is to add functionality to the project so that when you click on ‘Start’,that it will start a call to a Doctor. Reopen the file `DoctorListTableViewController.swift`. At the top of this file you will see 
 ``` swift
 import UIKit
@@ -120,6 +120,6 @@ func callDidComplete() {
 ```
 
 Your code should fit into the empty line mentioned above and look like this 
-![](Cisco%20Spark%20Video%20SDK%20-%20SEVT%20Lab%203/Lab%20Code.png)
+![](Lab%20Code.png)
 
 12. Go ahead and press the Run button again to run the app and you this time when you press the Start button in the app you should have a fully functioning video call!
