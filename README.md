@@ -5,7 +5,7 @@ SEVT Advanced iOS Video SDK Tutorial
 ### Adding Voice and Video to an existing App from Scratch
 
 ## Pre-Requisites
-This Lab assumes that you have installed all the dependent software used in labs 2 and 3.
+This Lab assumes that you have installed all the dependent software used in labs 1 and 2.
 
 # Overview
 The goal of this lab is to show the process that a developer would take to implement point to point voice and video calling into an existing iOS App. The scenario that we will use for this lab is a demo project called ‘DrAnywhere’. In its current form the app lets you log in, view a list of on demand medical professionals, with the ability to click on a specific doctor which will  show a Start Call button. 
