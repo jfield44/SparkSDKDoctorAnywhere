@@ -35,7 +35,7 @@ end
 
 This file contains a list of third party software dependencies that the DrAnywhere project includes. We need to add the SparkSDK to that list.
 
-Add a line to the file underneath `pod 'AABlurAlertController’` but above the `end` keyword. That line should contain `pod pod 'SparkSDK', '1.1'`
+Add a line to the file underneath `pod 'AABlurAlertController’` but above the `end` keyword. That line should contain `pod 'SparkSDK', '1.1'`
 
 So your new file should look like this:
 
