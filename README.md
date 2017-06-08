@@ -126,4 +126,6 @@ Your code should fit into the empty line mentioned above and look like this
 
 To do this, in the left panel of XCode click on info.plist, then in the center panel click on the whitespace and click add row, do this twice. In the two freshly created rows, add the string `Privacy - Microphone Usage Description` to the **key** column and `Spark SDK Microphone` to the **value** field, now repeat this for `Privacy - Camera Usage Description` and `Spark SDK Camera`respectively. The flow should work like the image below:
 
+![](infoplist.png)
+
 13. Go ahead and press the Run button again to run the app and you this time when you press the Start button in the app you should have a fully functioning video call!
