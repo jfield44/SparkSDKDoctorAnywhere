@@ -65,7 +65,7 @@ At this point we need to quit out of the Text editor, to do that:
 ![](2.png)
 5. Open the freshly downloaded SDK wrapper code that you downloaded and drag the contents of the folder into the `SparkSDKWrapper` folder in Xcode. The folder structure should look like this:
 ![](3.png)
-6. Now in Xcode click on the file `DoctorListTableViewController.swift` ,  in the top left corner of Xcode select , the simulator drop down, pick any iOS device (iPhone 7 or 7 plus are recommended), then click on Run to start the app.
+6. Now in Xcode click on the file `DoctorListTableViewController.swift` then ,  in the top left corner of Xcode select , the simulator drop down, pick any iOS device (iPhone 7 or 7 plus are recommended), then click on Run to start the app.
 7. The iOS Simulator will now launch, you can click on it much like your regular iPhone. Follow the steps below:
 ![](simulator.png)
 ![](Steps2.png)
