@@ -122,4 +122,8 @@ func callDidComplete() {
 Your code should fit into the empty line mentioned above and look like this 
 ![](Lab%20Code.png)
 
-12. Go ahead and press the Run button again to run the app and you this time when you press the Start button in the app you should have a fully functioning video call!
+12. There is one last step to do, Apple enforces a policy that when your app requests to use the camera and microphone on the iOS device that you provide some text to the user explaining when you are requesting access to those interfaces. We need to provide the text that will appear in a popup to the user when your app goes to make a call and asks to use the microphone and camera.
+
+To do this, in the left panel of XCode click on info.plist, then in the center panel click on the whitespace and click add row, do this twice. In the two freshly created rows, add the string `Privacy - Microphone Usage Description` to the **key** column and `Spark SDK Microphone` to the **value** field, now repeat this for `Privacy - Camera Usage Description` and `Spark SDK Camera`respectively. The flow should work like the image below:
+
+13. Go ahead and press the Run button again to run the app and you this time when you press the Start button in the app you should have a fully functioning video call!
